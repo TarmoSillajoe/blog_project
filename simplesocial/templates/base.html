@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+ {% load static %}
 <html>
   <head>
     <meta charset="utf-8">
@@ -14,7 +15,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-    <link rel="stylesheet" href="{% static 'simplesocial/css/master.css'%}">
+    <link rel="stylesheet" href="{% static 'simplesocial/css/master.css' %}">
 
   </head>
   <body>
@@ -42,8 +43,6 @@
       {% endblock %}
 
     </div>
-    {% block content %}
 
-    {% endblock %}
   </body>
 </html>
