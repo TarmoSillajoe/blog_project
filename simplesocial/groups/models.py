@@ -7,7 +7,7 @@ import misaka
 from django.contrib.auth import get_user_model
 User = get_user_model()
 
-# Allows usin custom template tags
+# Allows using custom template tags
 from django import template
 register = template.Library()
 
